@@ -1,6 +1,8 @@
 import requests
+import os
 from datetime import datetime
 from credentials import app_id, app_key, sheety_endpoint, sheety_auth
+
 
 APP_ID = app_id
 APP_KEY = app_key

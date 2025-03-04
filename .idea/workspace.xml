@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a74d2cfc-bad0-4f0a-912f-d14317aa49c5" name="Changes" comment="" />
+    <list default="true" id="a74d2cfc-bad0-4f0a-912f-d14317aa49c5" name="Changes" comment="Day 38 - application successfully creates new row to google sheets based on user input, trying to figure out why it only adds one exercise per input even if given 2 and have authenticated the google sheets request">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;carnasci&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/carnasci/Day-38-Exercise_Tracker.git&quot;,
+    &quot;accountId&quot;: &quot;083e58e6-b334-4da9-b7cb-18097525a46b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2tpQnDJ9NNuPBpih5o5DWSPfzwI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,10 +46,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="ExerciseTracker" is-pass-parent-envs="false" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="ExerciseTracker" />
+        <option name="myPassParentEnvs" value="false" />
+      </console-settings>
+    </option>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -41,6 +78,37 @@
       <option name="presentableId" value="Default" />
       <updated>1741046700440</updated>
     </task>
+    <task id="LOCAL-00001" summary="Day 38 - Project repo created">
+      <option name="closed" value="true" />
+      <created>1741047135796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741047135796</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Day 38 - was able to make a call to the API from user inputted text that returns exercise data in json format">
+      <option name="closed" value="true" />
+      <created>1741048449427</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741048449427</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day 38 - application successfully creates new row to google sheets based on user input, trying to figure out why it only adds one exercise per input even if given 2 and have authenticated the google sheets request">
+      <option name="closed" value="true" />
+      <created>1741053498743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741053498743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 38 - Project repo created" />
+    <MESSAGE value="Day 38 - was able to make a call to the API from user inputted text that returns exercise data in json format" />
+    <MESSAGE value="Day 38 - application successfully creates new row to google sheets based on user input, trying to figure out why it only adds one exercise per input even if given 2 and have authenticated the google sheets request" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 38 - application successfully creates new row to google sheets based on user input, trying to figure out why it only adds one exercise per input even if given 2 and have authenticated the google sheets request" />
   </component>
 </project>
